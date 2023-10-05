@@ -34,7 +34,7 @@ I started taking the Frontend Developer Career Path last August 2023.
    - I used .toFixed property to display fixed number of decimal places.
 7. **Password Generator**
    - First solo project that I created beyond my capability.
-   - I applied different new methods here to achieve the perfect pasword generator.
+   - I applied different new methods here to achieve the perfect password generator.
    - Customizable.
 8. **Laterr Google Extension**
    - I used chrome.tabs API to make this.
