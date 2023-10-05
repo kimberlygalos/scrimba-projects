@@ -38,7 +38,7 @@ I started taking the Frontend Developer Career Path last August 2023.
    - Customizable.
 8. **Laterr Google Extension**
    - I used chrome.tabs API to make this.
-   - You can add any link in your current website on this extension and access it later.
+   - You can add any link of your current website on this extension and access it later.
 
 
   
