@@ -1,0 +1,53 @@
+$primary-color: #ff6d60;
+$box-color: #f7d060;
+$text-primary-color: #f3e99f;
+$text-secondary-color: #98d8aa;
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  text-align: center;
+  width: 30rem;
+  margin: 0 auto;
+
+  .conversion {
+    background-color: $primary-color;
+    padding: 2rem 0;
+    .conversion-input {
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      width: 80px;
+      margin: 0 auto;
+
+      #input-value {
+        height: 50px;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-size: 3rem;
+      }
+    }
+  }
+  .results {
+    background-color: rgb(120, 117, 117);
+    line-height: 2rem;
+    padding: 1rem 0;
+
+    .results-content {
+      background-color: white;
+      width: 25rem;
+      margin: 1rem auto;
+      height: 4rem;
+      padding: 1rem 0;
+    }
+
+    .results-value {
+      font-size: 15px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+
+@keyframes color-change {
+  0% {
+    color: #eaa289;
+  }
+  25% {
+    color: #ff6969;
+  }
+  50% {
+    color: #337ccf;
+  }
+  75% {
+    color: #974ec3;
+  }
+  100% {
+    color: purple;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: rgba(26, 24, 24, 0.96);
+}
+
+.main-container {
+  text-align: center;
+  height: 35rem;
+  width: 30rem;
+  margin: 100px auto;
+  padding: 1rem 2rem;
+  background: linear-gradient(to bottom, #35155d, #512b81);
+}
+
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 0;
+  font-size: 30px;
+  color: rgb(160, 178, 194);
+  line-height: 3rem;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 1rem;
+  background-image: linear-gradient(to right, #337ccf, #ffc436);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+}
+
+#random-password {
+  font-family: 'Jost', sans-serif;
+  font-size: 3rem;
+  animation: color-change 10s infinite alternate;
+  text-shadow: 0 0 2px black;
+}
+
+.password-modifier {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 2rem 0;
+  flex-wrap: wrap;
+  color: #40f9ff85;
+}
+
+.modifier {
+  display: flex;
+  justify-content: space-between;
+  width: 12rem;
+  padding: 0.25rem 0;
+}
+
+.password-btn {
+  font-size: 12px;
+  font-weight: bolder;
+  color: rgb(35, 32, 32);
+  background-color: #ffc436;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-top: 3rem;
+  box-shadow: 0 0 3px black;
+  padding: 5px;
+}
+
+.password-btn:hover {
+  background-image: linear-gradient(to right, #974ec3, #337ccf);
+}
+
+.length-btn {
+  width: 2rem;
+}
+
+.password-input {
+  line-height: 2.8rem;
+  margin: 1rem 0;
+}
+
+#password-el1,
+#password-el2,
+.copy-button {
+  padding: 6px 0;
+  text-align: center;
+  font-size: 1.2rem;
+  box-shadow: 5px 5px 1px black;
+  border: none;
+}
+
+.copy-button {
+  width: 2rem;
+}
+
+.copy-message {
+  font-family: 'Jost', sans-serif;
+  background-image: linear-gradient(to right, #cf5a33, #ffc436);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+}
+
+.copy-icon {
+  height: 16px;
+}
+
+.copy-icon:hover,
+.copy-button:hover {
+  background-color: #4a8dd8;
+}
+
+.links {
+  text-decoration: none;
+  text-shadow: 0 0 0 1px black;
+  color: white;
+  margin-top: 10px;
+  line-height: 0.5rem;
+  text-decoration: none;
+  text-shadow: 0 0 0 1px black;
+  color: rgba(255, 255, 255, 0.482);
+}
+
+.cta {
+  font-size: 13px;
+  color: rgb(53, 47, 47);
+  text-shadow: 0 0 1px rgb(57, 52, 52);
+}
+
+#connect {
+  margin-right: 5px;
+}

@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="home">
+        <h3 class="title home-title">HOME</h3>
+        <div class="point">
+          <div id="home-el"></div>
+          <div id="home-foul"></div>
+        </div>
+        <div class="btn home__btn">
+          <div>
+            <button class="primary-btn" onclick="addHome1()">+1</button>
+            <button class="primary-btn" onclick="addHome2()">+2</button>
+            <button class="primary-btn" onclick="addHome3()">+3</button>
+          </div>
+          <div>
+            <button class="primary-btn foul-btn" onclick="subtractHome3()">
+              Penalty
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="timer">
+        <div id="countdown-el"></div>
+        <div class="countdown__btn">
+          <button onclick="updateCountdown()" id="start-btn">
+            Start Timer
+          </button>
+        </div>
+      </div>
+
+      <div class="guest">
+        <h3 class="title guest-title">GUEST</h3>
+        <div class="point">
+          <div id="guest-el"></div>
+          <div id="guest-foul"></div>
+        </div>
+        <div class="btn guest__btn">
+          <div>
+            <button class="primary-btn" onclick="addGuest1()">+1</button>
+            <button class="primary-btn" onclick="addGuest2()">+2</button>
+            <button class="primary-btn" onclick="addGuest3()">+3</button>
+          </div>
+          <div>
+            <button class="primary-btn foul-btn" onclick="subtractGuest3()">
+              Penalty
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

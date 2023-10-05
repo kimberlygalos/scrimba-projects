@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <title>Password Generator</title>
+  <body>
+    <div class="main-container">
+      <section class="password-generator">
+        <h1>Generate a <span id="random-password">random password</span></h1>
+        <p>Never use an insecure password again!</p>
+        <button class="password-btn" onclick="generatePassword()">
+          Generate passwords
+        </button>
+
+        <div class="password-input">
+          <div>
+            <input type="text" id="password-el1" name="password1" />
+            <button class="copy-button" onclick="copyText1()">
+              <img class="copy-icon" src="/assets/copy-icon.png" />
+            </button>
+            <div class="copy-message" id="messageContainer1"></div>
+          </div>
+          <div>
+            <input type="text" id="password-el2" name="password2" />
+            <button class="copy-button" onclick="copyText2()">
+              <img class="copy-icon" src="/assets/copy-icon.png" />
+            </button>
+            <div class="copy-message" id="messageContainer2"></div>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="password-modifier">
+        <div class="modifier--1">
+          <div class="modifier m1__lenght">
+            <label for="length">Password Length:</label>
+            <input
+              class="length-btn"
+              type="number"
+              id="length"
+              min="8"
+              max="20"
+              value="8" />
+          </div>
+          <div class="modifier m1__lowercase">
+            <label for="lowerCase">Lowercase Characters:</label>
+            <input type="checkbox" id="lowerCase" checked />
+          </div>
+          <div class="modifier m1__uppercase">
+            <label for="upperCase">Uppercase Characters:</label>
+            <input type="checkbox" id="upperCase" checked />
+          </div>
+        </div>
+        <div class="modifier--2">
+          <div class="modifier m2__symbols">
+            <label for="symbols">Symbols:</label>
+            <input type="checkbox" id="symbols" checked />
+          </div>
+          <div class="modifier m2__numbers">
+            <label for="numbers">Numbers:</label>
+            <input type="checkbox" id="numbers" checked />
+          </div>
+          <div class="modifier m2__extra">
+            <label for="extraCharacters">Extra Characters:</label>
+            <input type="checkbox" id="extraCharacters" checked />
+          </div>
+        </div>
+      </section>
+      <section class="cta">
+        <span id="connect">connect with me:</span>
+
+        <a
+          href="https://www.linkedin.com/in/kimberly-galos-0b278b224/"
+          target="_blank"
+          class="links personal-linkedin">
+          LinkedIn</a
+        >
+      </section>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
