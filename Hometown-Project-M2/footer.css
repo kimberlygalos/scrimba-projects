@@ -1,0 +1,37 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 200px;
+  background-color: #ff893a;
+  position: absolute;
+  width: 100%;
+  gap: 2rem;
+  color: rgb(40, 37, 37);
+}
+
+.footer__image {
+  height: 110px;
+  width: 100px;
+}
+.about_title {
+  font-size: large;
+  font-weight: bold;
+}
+
+.about__title--link {
+  text-decoration: none;
+  color: #993f03;
+  text-shadow: 0 0 0 1px black;
+}
+
+.about__title--link:hover {
+  color: #522406;
+}
+
+.about {
+  align-self: center;
+  text-align: justify;
+  width: 500px;
+}

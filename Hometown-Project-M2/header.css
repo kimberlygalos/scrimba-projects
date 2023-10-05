@@ -1,0 +1,43 @@
+@font-face {
+  src: url('fonts/manila.otf');
+  font-family: manila;
+}
+
+.main__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px;
+  color: #cea07d;
+}
+
+.main__menu--logo {
+  font-family: manila;
+  font-size: 50px;
+  margin: 0;
+}
+
+.main__menu--list {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.home-btn--link,
+.thingstodo-btn--link {
+  color: #fceee3;
+  text-decoration: none;
+}
+
+.main {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  font-size: 15px;
+}

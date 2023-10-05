@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.home-btn--link:hover,
+.thingstodo-btn--link:hover {
+  border: 2px solid rgb(187, 175, 175);
+  padding: 0 5px;
+}
+
+.article__img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+article {
+  background-color: #dbc1ae;
+}
+
+.Background {
+  text-align: justify;
+  padding: 50px 50px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.bg_description {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 25px;
+  text-indent: 80px;
+  color: rgb(41, 39, 39);
+}
+
+.btn-home {
+  margin-left: auto;
+  display: block;
+  width: 130px;
+  border: 0;
+  border-radius: 5px;
+
+  text-decoration: none;
+}

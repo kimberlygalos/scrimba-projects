@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.thingstodo-btn--link {
+  border: 2px solid rgb(187, 175, 175);
+  padding: 0 5px;
+}
+
+.home-btn--link:hover {
+  border: 2px solid rgb(187, 175, 175);
+  padding: 0 5px;
+}
+
+.bg-image {
+  background-image: url('./Images/todo.webp.webp');
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+article {
+  padding-bottom: 50px;
+}
+
+.article__activities {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 80px 50px 0 50px;
+}
+
+.activities--img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.card {
+  background-color: rgb(250, 235, 219);
+}
+
+.card:hover {
+  transform: scale(1.1);
+  border: 5px solid;
+  border-image: linear-gradient(45deg, yellow, red, blue) 1;
+}
+
+article {
+  background-color: #dbc1ae;
+}
+
+h3 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
