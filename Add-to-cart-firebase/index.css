@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #eef0f4;
+  color: #432000;
+  user-select: none;
+}
+
+/* .add-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+} */
+
+.container {
+  border: 2px solid black;
+  max-width: 300px;
+  margin: 50px auto;
+  display: relative;
+}
+
+.app-logo {
+  height: 170px;
+  margin: 10px 40px;
+  display: absolute;
+}
+
+input {
+  color: #432000;
+  background-color: #dce1eb;
+  padding: 0;
+  text-align: center;
+}
+
+button {
+  color: #fdfdfd;
+  background-color: #ac485a;
+}
+
+button:hover {
+  background-color: #432000;
+}
+
+button:active {
+  opacity: 70%;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+li:hover {
+  background-color: #ffecc7;
+  cursor: pointer;
+}
+
+input,
+button {
+  width: 80%;
+  height: 50px;
+  display: block;
+  border: none;
+  border-radius: 10px;
+  margin: 0.5em auto;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px 10px;
+
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+ul li {
+  padding: 5px;
+  text-align: center;
+  width: 100px;
+  border: 1px none;
+  border-radius: 5px;
+  background-color: #fffdf8;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+}
